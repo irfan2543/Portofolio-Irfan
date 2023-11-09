@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@100&family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Top Container*/
+.top-container{
+    background-color: #e4f9f5;
+    
+}
+
+.img-cloud-top{
+    text-align: right;
+}
+
+.img-cloud-top img{
+
+    margin-right: 15%;
+    margin-top: 2%;
+}
+
+.description-mid{
+    font-weight: bold;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.img-cloud-bottom{
+    text-align: left;
+}
+
+.img-cloud-bottom img{
+
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.img-top{
+    text-align: center;
+}
+
+
+/*Middle Container*/
+.img-profile{
+    text-align: center;
+    margin-top: 5em;
+}
+
+.profile-description{
+    margin-top: 2em;
+}
+
+.text-description{
+    width: 50%;
+    font-size: 1.5em;
+    text-align: center;
+    margin : 1em auto;
+}
+
+.skill-description{
+    display: flex;
+    flex-direction: column;
+    margin: 5em auto;
+}
+
+.skill-description p{
+    font-size: 2em;
+}
+
+.skill-description h2{
+    color: #11999e;
+}
+
+.html-skill{
+    display: flex;
+    margin-left: 50%;
+    padding: 5em auto;
+}
+
+.html-skill img{
+    width: 36%;
+}
+
+.html-skill .html-skill-description{
+    
+    margin-left: 2em;
+    width: 50%;
+    margin-top: 3em;
+}
+
+
+.css-skill{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10em;
+}
+
+.css-skill img{
+    width: 18%;
+}
+
+.css-skill .css-skill-description{
+    margin-left: 2em;
+    margin-top: 3em;
+    width: 25%;
+    
+}
+/*Bottom Container*/
+
+.bottom-container{
+
+    font-size: 1.2em;
+}
+.contact-top{
+    text-align: center;
+    margin: 10em auto;
+}
+
+.contact-top button{
+
+    padding: 1.5em 5em;
+    background-color: #11999e;
+    border: solid;
+    font-size: 1em;
+    border-radius: 4em;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+}
+
+.contact-top button:hover{
+
+    background-color: #228B22;
+    cursor: pointer;
+    
+}
+
+.contact-bot{
+    
+    text-align: center;
+    padding: 4em;
+    background-color: #11999e;
+}
+
+.link-contact{
+
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.link-contact a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.link-contact a:hover{
+
+    color: white;  
+    font-size: 1.3em;
+}
+
+.by-contact{
+
+    color: white;
+    margin-top: 2em;
+}
+
+
+/* Media Width */
+
+@media screen and (min-width: 600px) and (max-width: 1050px)
+{
+    
+
+    .html-skill{
+        
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .html-skill img{
+        width: 50%;
+        
+    }
+
+    .html-skill .html-skill-description{
+
+        margin-top: 3em;
+        width: 75%;
+    }
+
+    .html-skill .html-skill-description h2{
+        font-size: 3em;
+    }
+    
+    .css-skill{
+        
+        margin: 4em 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .css-skill img{
+        width: 50%;
+    }
+
+    .css-skill .css-skill-description{
+        
+        margin-top: 3em;
+        width: 75%;
+    }
+
+    .css-skill .css-skill-description h2{
+        font-size: 3em;
+    }
+
+    .link-contact{
+
+        
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+    
+}
